@@ -1,0 +1,2057 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-11-23",
+  "meta": {
+    "title": "CryptoHub - 极客加密资产与Web3全景导航",
+    "title_en": "CryptoHub - The Open-Source Web3 & Crypto Ecosystem Directory",
+    "description": "开源、客观、去中心化的加密行业实用工具导航中枢，交易所与交易生态置顶收录。",
+    "total_categories": 10,
+    "total_items": 88,
+    "pinned_category": "exchanges"
+  },
+  "categories": [
+    {
+      "id": "exchanges",
+      "name": "交易所与交易生态",
+      "name_en": "Exchanges & Trading",
+      "description": "全球头部合规中心化交易所(CEX)与去中心化交易所(DEX)，支持现货、合约及流动性兑换。",
+      "icon": "TrendingUp",
+      "order": 1,
+      "subcategories": [
+        {
+          "id": "cex",
+          "name": "中心化交易所 (CEX)",
+          "description": "流动性充沛、法币通道完善、现货与衍生品功能齐全的主流中心化交易平台"
+        },
+        {
+          "id": "dex",
+          "name": "去中心化交易所 (DEX)",
+          "description": "非托管、免KYC、代码开源透明的链上自动做市商(AMM)及订单簿去中心化平台"
+        }
+      ]
+    },
+    {
+      "id": "wallets",
+      "name": "加密钱包与资产管理",
+      "name_en": "Wallets & Custody",
+      "description": "非托管软硬件加密钱包、多链资产聚合与机构级多签金库，掌控你的私钥与资产所有权。",
+      "icon": "Wallet",
+      "order": 2,
+      "subcategories": [
+        {
+          "id": "software_wallet",
+          "name": "软件与插件钱包",
+          "description": "浏览器插件与移动端轻钱包，日常交互与Web3登录首选"
+        },
+        {
+          "id": "hardware_wallet",
+          "name": "硬件冷钱包",
+          "description": "私钥物理离线隔离，安全级别最高的防黑客资产存储"
+        },
+        {
+          "id": "multisig_wallet",
+          "name": "多签与智能合约钱包",
+          "description": "机构、基金与DAO团队协作管理大额资产的多重签名金库"
+        }
+      ]
+    },
+    {
+      "id": "market_analytics",
+      "name": "行情图表与专业数据分析",
+      "name_en": "Market Data & Analytics",
+      "description": "涵盖大盘行情、衍生品未平仓量、链上Smart Money巨鲸资金异动以及新币K线探测。",
+      "icon": "BarChart3",
+      "order": 3,
+      "subcategories": [
+        {
+          "id": "market_general",
+          "name": "综合行情与图表",
+          "description": "权威市值排名、K线技术分析工具与宏观金融指标"
+        },
+        {
+          "id": "derivatives_data",
+          "name": "合约与衍生品数据",
+          "description": "爆仓统计、多空比例、资金费率与未平仓合约监测"
+        },
+        {
+          "id": "dex_screener",
+          "name": "链上DEX新币看盘",
+          "description": "秒级价格变动、流动性池监控与老鼠仓探测"
+        },
+        {
+          "id": "onchain_intel",
+          "name": "链上情报与实体追踪",
+          "description": "AI地址标签、巨鲸持仓穿透与黑客资金洗钱追踪"
+        }
+      ]
+    },
+    {
+      "id": "defi",
+      "name": "去中心化金融协议 (DeFi)",
+      "name_en": "DeFi Protocols",
+      "description": "去中心化借贷、流动性质押(LST/LRT)、本息收益分离及跨链流动性互操作协议。",
+      "icon": "Coins",
+      "order": 4,
+      "subcategories": [
+        {
+          "id": "lending",
+          "name": "借贷协议",
+          "description": "超额抵押去中心化借贷与流动性生息"
+        },
+        {
+          "id": "staking_restaking",
+          "name": "质押与再质押",
+          "description": "以太坊及多链PoS质押收益与共识安全性共享"
+        },
+        {
+          "id": "yield_rwa",
+          "name": "收益代币化与稳定币",
+          "description": "固定收益对冲、Delta中性合成美元与RWA真实世界资产"
+        },
+        {
+          "id": "crosschain",
+          "name": "跨链桥与互操作性",
+          "description": "全链资产安全快速跨链传输与意图路由协议"
+        }
+      ]
+    },
+    {
+      "id": "public_chains",
+      "name": "主流公链与Layer 2",
+      "name_en": "Blockchains & Layer 2",
+      "description": "公链基石网络与二层扩容生态，承载去中心化应用与数字黄金价值存储。",
+      "icon": "Layers",
+      "order": 5,
+      "subcategories": [
+        {
+          "id": "layer1",
+          "name": "主流 Layer 1",
+          "description": "具备独立底层共识与安全性的基石公链网络"
+        },
+        {
+          "id": "layer2",
+          "name": "以太坊 Layer 2 / 扩容网络",
+          "description": "继承以太坊安全性的低成本、高并发二层扩容网络"
+        }
+      ]
+    },
+    {
+      "id": "explorers",
+      "name": "区块链浏览器与监控",
+      "name_en": "Blockchain Explorers",
+      "description": "链上可信账本查询，穿透查询每一笔交易哈希、智能合约源代码与比特币内存池状态。",
+      "icon": "Search",
+      "order": 6,
+      "subcategories": [
+        {
+          "id": "evm_explorers",
+          "name": "EVM 链浏览器",
+          "description": "以太坊及兼容链核心数据查询"
+        },
+        {
+          "id": "non_evm_explorers",
+          "name": "非 EVM / UTXO 浏览器",
+          "description": "比特币、Solana及特定生态区块链账本查询"
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "name": "安全审计与防钓鱼",
+      "name_en": "Security & Anti-Scam",
+      "description": "钱包授权快速取消、恶意智能合约蜜罐检测、防盗签名模拟与权威代码审计机构。",
+      "icon": "ShieldAlert",
+      "order": 7,
+      "subcategories": [
+        {
+          "id": "wallet_security",
+          "name": "钱包防御与授权清理",
+          "description": "撤销多余代币授权，实时拦截钓鱼签名诱饵"
+        },
+        {
+          "id": "audit_research",
+          "name": "代码审计与威胁情报",
+          "description": "行业顶级智能合约审计机构与零日漏洞预警"
+        }
+      ]
+    },
+    {
+      "id": "research_alpha",
+      "name": "投研工具与空投监控",
+      "name_en": "Research & Alpha Tools",
+      "description": "解锁日历倒计时、现货ETF净流入、社区SQL看板与全网TVL深度汇总。",
+      "icon": "Sparkles",
+      "order": 8,
+      "subcategories": [
+        {
+          "id": "macro_tvl",
+          "name": "TVL与宏观ETF数据",
+          "description": "全链DeFi资金体量与华尔街现货ETF动向跟踪"
+        },
+        {
+          "id": "unlock_airdrop",
+          "name": "代币解锁与投融资",
+          "description": "投资人筹码解锁日期预警与项目融资历史库"
+        }
+      ]
+    },
+    {
+      "id": "news_media",
+      "name": "资讯快讯与研报社区",
+      "name_en": "News & Research Media",
+      "description": "7x24小时全网快讯、深度赛道研究报告、行业宏观政策与播客社区。",
+      "icon": "Newspaper",
+      "order": 9,
+      "subcategories": [
+        {
+          "id": "chinese_media",
+          "name": "华语前沿快讯与媒体",
+          "description": "一手中文快讯、原创深度研报与行业访谈"
+        },
+        {
+          "id": "global_media",
+          "name": "全球顶级英文媒体与研报",
+          "description": "海外权威加密科技媒体与机构级宏观投研"
+        }
+      ]
+    },
+    {
+      "id": "developer_infra",
+      "name": "开发者与Web3基础设施",
+      "name_en": "Developer Tools & Infra",
+      "description": "全球分布式RPC节点服务、预言机数据喂送、智能合约框架与安全代码库标准。",
+      "icon": "Code2",
+      "order": 10,
+      "subcategories": [
+        {
+          "id": "node_rpc",
+          "name": "RPC 节点与云开发平台",
+          "description": "高可用API接入节点与数据索引"
+        },
+        {
+          "id": "smart_contracts",
+          "name": "合约框架与预言机",
+          "description": "智能合约工程化测试、编译与链下真实数据源"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "binance",
+      "name": "Binance 币安",
+      "name_en": "Binance",
+      "category": "exchanges",
+      "subcategory": "cex",
+      "url": "https://www.binance.com",
+      "domains": [
+        "binance.com",
+        "binance.me",
+        "binance.charity"
+      ],
+      "description": "全球综合交易量与流动性排名第一的加密货币交易所，覆盖现货、衍生品、理财、Launchpool及内置Web3钱包全生态矩阵。",
+      "tags": [
+        "头部CEX",
+        "现货/合约",
+        "极深流动性",
+        "理财生息",
+        "全生态"
+      ],
+      "is_featured": true,
+      "badge": "全球最大",
+      "logo": "assets/logos/binance.png"
+    },
+    {
+      "id": "okx",
+      "name": "OKX 欧易",
+      "name_en": "OKX",
+      "category": "exchanges",
+      "subcategory": "cex",
+      "url": "https://www.okx.com",
+      "domains": [
+        "okx.com"
+      ],
+      "description": "全球领先的数字资产创新交易平台，交互体验极佳，涵盖专业合约/期权体系与备受好评的多链Web3钱包、DEX聚合生态。",
+      "tags": [
+        "头部CEX",
+        "Web3钱包首屈一指",
+        "期权合约",
+        "产品体验顶尖"
+      ],
+      "is_featured": true,
+      "badge": "Web3先锋",
+      "logo": "assets/logos/okx.png"
+    },
+    {
+      "id": "coinbase",
+      "name": "Coinbase",
+      "name_en": "Coinbase",
+      "category": "exchanges",
+      "subcategory": "cex",
+      "url": "https://www.coinbase.com",
+      "domains": [
+        "coinbase.com"
+      ],
+      "description": "美国纳斯达克合规上市交易所(NASDAQ: COIN)，受严格监管持牌，是欧美传统机构、大资金配置与合规法币出入金的主阵地。",
+      "tags": [
+        "美股上市",
+        "合规持牌",
+        "机构通道",
+        "美元出入金"
+      ],
+      "is_featured": true,
+      "badge": "合规旗舰",
+      "logo": "assets/logos/coinbase.png"
+    },
+    {
+      "id": "bybit",
+      "name": "Bybit",
+      "name_en": "Bybit",
+      "category": "exchanges",
+      "subcategory": "cex",
+      "url": "https://www.bybit.com",
+      "domains": [
+        "bybit.com"
+      ],
+      "description": "全球排名前列的加密衍生品交易平台，以极低延迟撮合引擎、优质跟单交易社区与丰富的Web3打新活动著称。",
+      "tags": [
+        "合约撮合",
+        "跟单交易",
+        "Launchpad",
+        "专业交易员"
+      ],
+      "is_featured": true,
+      "badge": "衍生品巨头",
+      "logo": "assets/logos/bybit.png"
+    },
+    {
+      "id": "gate-io",
+      "name": "Gate.io 芝麻开门",
+      "name_en": "Gate.io",
+      "category": "exchanges",
+      "subcategory": "cex",
+      "url": "https://www.gate.io",
+      "domains": [
+        "gate.io"
+      ],
+      "description": "创立于2013年的老牌综合性交易平台，币种覆盖率极高，是发现潜力小币种、创新区热门项目与Startup首发认购的核心平台。",
+      "tags": [
+        "老牌交易所",
+        "币种极全",
+        "Startup打新",
+        "创新区"
+      ],
+      "is_featured": true,
+      "badge": "币种宝库",
+      "logo": "assets/logos/gate-io.png"
+    },
+    {
+      "id": "bitget",
+      "name": "Bitget",
+      "name_en": "Bitget",
+      "category": "exchanges",
+      "subcategory": "cex",
+      "url": "https://www.bitget.com",
+      "domains": [
+        "bitget.com"
+      ],
+      "description": "全球知名的跟单交易与加密资产衍生品平台，拥有庞大的跟单交易员网络、活跃的现货生态与Web3全栈支持。",
+      "tags": [
+        "跟单交易",
+        "合约交易",
+        "Launchpool",
+        "保护基金"
+      ],
+      "is_featured": false,
+      "logo": "assets/logos/bitget.png"
+    },
+    {
+      "id": "kraken",
+      "name": "Kraken",
+      "name_en": "Kraken",
+      "category": "exchanges",
+      "subcategory": "cex",
+      "url": "https://www.kraken.com",
+      "domains": [
+        "kraken.com"
+      ],
+      "description": "创立于2011年的欧美老牌交易所，以极致严密的安全审计记录、完善的欧元与美元法币清算通道备受国际资深交易员信赖。",
+      "tags": [
+        "欧美合规",
+        "极高安全性",
+        "法币出入金",
+        "老牌历史"
+      ],
+      "is_featured": false,
+      "logo": "assets/logos/kraken.png"
+    },
+    {
+      "id": "kucoin",
+      "name": "KuCoin 库币",
+      "name_en": "KuCoin",
+      "category": "exchanges",
+      "subcategory": "cex",
+      "url": "https://www.kucoin.com",
+      "domains": [
+        "kucoin.com"
+      ],
+      "description": "全球化加密资产交易平台，以丰富的山寨币种、自动化网格交易机器人与广泛的海外活跃社区而知名。",
+      "tags": [
+        "全球化",
+        "网格机器人",
+        "丰富币种",
+        "国际社区"
+      ],
+      "is_featured": false,
+      "logo": "assets/logos/kucoin.png"
+    },
+    {
+      "id": "hashkey",
+      "name": "HashKey Exchange",
+      "name_en": "HashKey",
+      "category": "exchanges",
+      "subcategory": "cex",
+      "url": "https://www.hashkey.com",
+      "domains": [
+        "hashkey.com"
+      ],
+      "description": "香港持牌合规虚拟资产交易所（持有香港证监会1号与7号牌照），支持合规散户与专业机构投资者通过港元/美元法币安全交易。",
+      "tags": [
+        "香港合规持牌",
+        "港元法币通道",
+        "机构托管",
+        "官方监管"
+      ],
+      "is_featured": true,
+      "badge": "香港持牌",
+      "logo": "assets/logos/hashkey.png"
+    },
+    {
+      "id": "uniswap",
+      "name": "Uniswap",
+      "name_en": "Uniswap",
+      "category": "exchanges",
+      "subcategory": "dex",
+      "url": "https://app.uniswap.org",
+      "domains": [
+        "uniswap.org"
+      ],
+      "description": "以太坊及多链去中心化自动做市商(AMM)标杆，去中心化现货兑换的行业标准，资金池体量巨大且代码经过长期实战检验。",
+      "tags": [
+        "DEX龙头",
+        "以太坊/多链",
+        "集中流动性",
+        "无KYC"
+      ],
+      "is_featured": true,
+      "badge": "DEX标杆",
+      "logo": "assets/logos/uniswap.png"
+    },
+    {
+      "id": "jupiter",
+      "name": "Jupiter",
+      "name_en": "Jupiter",
+      "category": "exchanges",
+      "subcategory": "dex",
+      "url": "https://jup.ag",
+      "domains": [
+        "jup.ag"
+      ],
+      "description": "Solana生态核心流动性基础设施与全功能DEX聚合器，提供全网最优滑点路由、限价单、定投(DCA)及永续合约交易。",
+      "tags": [
+        "Solana龙头",
+        "聚合兑换",
+        "限价单/DCA",
+        "去中心化合约"
+      ],
+      "is_featured": true,
+      "badge": "Solana核心",
+      "logo": "assets/logos/jupiter.png"
+    },
+    {
+      "id": "raydium",
+      "name": "Raydium",
+      "name_en": "Raydium",
+      "category": "exchanges",
+      "subcategory": "dex",
+      "url": "https://raydium.io",
+      "domains": [
+        "raydium.io"
+      ],
+      "description": "Solana生态主流原生去中心化做市商(AMM)，是Solana链上新兴资产、热门Meme币初始流动性启动的首选主战场。",
+      "tags": [
+        "Solana原生",
+        "流动性池",
+        "CPMM/CLMM",
+        "新币首发"
+      ],
+      "is_featured": true,
+      "logo": "assets/logos/raydium.png"
+    },
+    {
+      "id": "pancakeswap",
+      "name": "PancakeSwap",
+      "name_en": "PancakeSwap",
+      "category": "exchanges",
+      "subcategory": "dex",
+      "url": "https://pancakeswap.finance",
+      "domains": [
+        "pancakeswap.finance"
+      ],
+      "description": "BNB Chain生态最大的去中心化交易协议，现已全面拓展至以太坊、Arbitrum等多链，提供极速代币兑换与流动性农场。",
+      "tags": [
+        "BNB Chain龙头",
+        "多链DEX",
+        "农场收益",
+        "低Gas兑换"
+      ],
+      "is_featured": false,
+      "logo": "assets/logos/pancakeswap.png"
+    },
+    {
+      "id": "oneinch",
+      "name": "1inch Network",
+      "name_en": "1inch",
+      "category": "exchanges",
+      "subcategory": "dex",
+      "url": "https://app.1inch.io",
+      "domains": [
+        "1inch.io"
+      ],
+      "description": "多链领先的DEX聚合路由器，采用Pathfinder智能算法跨多个流动性池自动拆单计算，帮助用户实现最低滑点与最优成交。",
+      "tags": [
+        "多链聚合器",
+        "智能路由",
+        "防MEV夹子",
+        "最优报价"
+      ],
+      "is_featured": false,
+      "logo": "assets/logos/oneinch.png"
+    },
+    {
+      "id": "curve",
+      "name": "Curve Finance",
+      "name_en": "Curve",
+      "category": "exchanges",
+      "subcategory": "dex",
+      "url": "https://curve.fi",
+      "domains": [
+        "curve.fi"
+      ],
+      "description": "专为稳定币、LST等锚定资产打造的高效深度去中心化做市协议，以极低滑点和革命性的veToken治理模型奠定DeFi基石地位。",
+      "tags": [
+        "稳定币深度",
+        "极低滑点",
+        "veCRV治理",
+        "DeFi底层"
+      ],
+      "is_featured": false,
+      "logo": "assets/logos/curve.png"
+    },
+    {
+      "id": "hyperliquid",
+      "name": "Hyperliquid",
+      "name_en": "Hyperliquid",
+      "category": "exchanges",
+      "subcategory": "dex",
+      "url": "https://hyperliquid.xyz",
+      "domains": [
+        "hyperliquid.xyz"
+      ],
+      "description": "基于原生定制高性能L1构建的完全去中心化永续合约订单簿，免Gas费极速撮合体验，流动性与日交易量爆发式增长。",
+      "tags": [
+        "去中心化合约",
+        "专属L1公链",
+        "零Gas费",
+        "高性能订单簿"
+      ],
+      "is_featured": true,
+      "badge": "新一代合约",
+      "logo": "assets/logos/hyperliquid.png"
+    },
+    {
+      "id": "dydx",
+      "name": "dYdX",
+      "name_en": "dYdX",
+      "category": "exchanges",
+      "subcategory": "dex",
+      "url": "https://dydx.exchange",
+      "domains": [
+        "dydx.exchange"
+      ],
+      "description": "老牌顶尖去中心化衍生品交易所，已全面迁移至基于Cosmos SDK的独立应用链dYdX Chain，提供极佳的撮合深度与高杠杆交易。",
+      "tags": [
+        "去中心化衍生品",
+        "独立应用链",
+        "专业深度",
+        "免KYC"
+      ],
+      "is_featured": false,
+      "logo": "assets/logos/dydx.png"
+    },
+    {
+      "id": "gmx",
+      "name": "GMX",
+      "name_en": "GMX",
+      "category": "exchanges",
+      "subcategory": "dex",
+      "url": "https://gmx.io",
+      "domains": [
+        "gmx.io"
+      ],
+      "description": "Arbitrum与Avalanche链上领先的去中心化永续合约平台，依托GLP/GM流动性池架构，实现零滑点成交与高额真实收益分红。",
+      "tags": [
+        "Arbitrum龙头",
+        "零滑点成交",
+        "真实收益",
+        "GLP/GM池"
+      ],
+      "is_featured": false,
+      "logo": "assets/logos/gmx.png"
+    },
+    {
+      "id": "metamask",
+      "name": "MetaMask (小狐狸)",
+      "name_en": "MetaMask",
+      "category": "wallets",
+      "subcategory": "software_wallet",
+      "url": "https://metamask.io",
+      "domains": [
+        "metamask.io"
+      ],
+      "description": "全球使用最广泛的以太坊及EVM兼容链浏览器插件与移动端钱包，Web3生态登录与交互的绝对事实标准。",
+      "tags": [
+        "EVM标配",
+        "浏览器插件",
+        "移动端",
+        "新手必备"
+      ],
+      "is_featured": true,
+      "badge": "普及率最高",
+      "logo": "assets/logos/metamask.png"
+    },
+    {
+      "id": "okx-wallet",
+      "name": "OKX Web3 钱包",
+      "name_en": "OKX Web3 Wallet",
+      "category": "wallets",
+      "subcategory": "software_wallet",
+      "url": "https://www.okx.com/web3",
+      "domains": [
+        "okx.com"
+      ],
+      "description": "全功能一站式去中心化多链钱包，支持比特币Ordinals、Solana、EVM等上百条公链，内置全能DEX聚合、NFT市场与DeFi发现。",
+      "tags": [
+        "异构多链",
+        "铭文/符文",
+        "DEX跨链聚合",
+        "交互体验极佳"
+      ],
+      "is_featured": true,
+      "badge": "全能体验",
+      "logo": "assets/logos/okx-wallet.png"
+    },
+    {
+      "id": "phantom",
+      "name": "Phantom",
+      "name_en": "Phantom",
+      "category": "wallets",
+      "subcategory": "software_wallet",
+      "url": "https://phantom.app",
+      "domains": [
+        "phantom.app"
+      ],
+      "description": "Solana生态统治级钱包，界面美观流畅，现已全面支持比特币、以太坊与Polygon多链资产管理与NFT展示。",
+      "tags": [
+        "Solana必备",
+        "多链支持",
+        "极佳UI交互",
+        "移动与插件"
+      ],
+      "is_featured": true,
+      "badge": "Solana标配",
+      "logo": "assets/logos/phantom.png"
+    },
+    {
+      "id": "rabby",
+      "name": "Rabby Wallet",
+      "name_en": "Rabby",
+      "category": "wallets",
+      "subcategory": "software_wallet",
+      "url": "https://rabby.io",
+      "domains": [
+        "rabby.io"
+      ],
+      "description": "DeBank团队专为以太坊与EVM用户打造的专业插件钱包，提供交易前危险签名解析、余额变动模拟与多地址便捷切换。",
+      "tags": [
+        "EVM进阶神器",
+        "防钓鱼模拟",
+        "DeBank出品",
+        "多地址管理"
+      ],
+      "is_featured": true,
+      "badge": "安全进阶",
+      "logo": "assets/logos/rabby.png"
+    },
+    {
+      "id": "bitget-wallet",
+      "name": "Bitget Wallet",
+      "name_en": "Bitget Wallet",
+      "category": "wallets",
+      "subcategory": "software_wallet",
+      "url": "https://web3.bitget.com",
+      "domains": [
+        "bitget.com"
+      ],
+      "description": "前身BitKeep，全球知名去中心化多链Web3钱包，深度整合链上K线行情、Swap兑换、Launchpad及DApp开放生态。",
+      "tags": [
+        "多链钱包",
+        "K线行情",
+        "Swap兑换",
+        "空投生态"
+      ],
+      "is_featured": false,
+      "logo": "assets/logos/bitget-wallet.png"
+    },
+    {
+      "id": "safe",
+      "name": "Safe (Gnosis Safe)",
+      "name_en": "Safe",
+      "category": "wallets",
+      "subcategory": "multisig_wallet",
+      "url": "https://app.safe.global",
+      "domains": [
+        "safe.global"
+      ],
+      "description": "行业公认的智能合约多重签名托管金库，保护超过数百亿美元资产，是加密初创团队、DAO组织与机构管理财库的基石工具。",
+      "tags": [
+        "多签金库",
+        "智能合约钱包",
+        "机构标配",
+        "DAO财库治理"
+      ],
+      "is_featured": true,
+      "badge": "机构多签",
+      "logo": "assets/logos/safe.png"
+    },
+    {
+      "id": "ledger",
+      "name": "Ledger",
+      "name_en": "Ledger",
+      "category": "wallets",
+      "subcategory": "hardware_wallet",
+      "url": "https://www.ledger.com",
+      "domains": [
+        "ledger.com"
+      ],
+      "description": "全球最畅销的硬件冷钱包厂商之一，内置EAL5+/6+安全芯片物理隔离私钥，支持蓝牙与多端Ledger Live协同管理资产。",
+      "tags": [
+        "硬件冷钱包",
+        "安全芯片",
+        "物理离线",
+        "大额存储必备"
+      ],
+      "is_featured": true,
+      "badge": "冷钱包龙头",
+      "logo": "assets/logos/ledger.png"
+    },
+    {
+      "id": "trezor",
+      "name": "Trezor",
+      "name_en": "Trezor",
+      "category": "wallets",
+      "subcategory": "hardware_wallet",
+      "url": "https://trezor.io",
+      "domains": [
+        "trezor.io"
+      ],
+      "description": "由SatoshiLabs创立的全球首款加密硬件钱包先驱，代码与硬件架构全面开源透明，受到极客社群长期高度信赖。",
+      "tags": [
+        "硬件冷钱包",
+        "全开源架构",
+        "先驱品牌",
+        "极客首选"
+      ],
+      "is_featured": false,
+      "logo": "assets/logos/trezor.png"
+    },
+    {
+      "id": "onekey",
+      "name": "OneKey",
+      "name_en": "OneKey",
+      "category": "wallets",
+      "subcategory": "hardware_wallet",
+      "url": "https://onekey.so",
+      "domains": [
+        "onekey.so"
+      ],
+      "description": "全开源软硬件一体化加密钱包，具备极佳的中文本土化体验、全平台原生客户端支持以及高性价比硬件产品线。",
+      "tags": [
+        "全开源",
+        "软硬一体",
+        "多端同步",
+        "中文体验顶尖"
+      ],
+      "is_featured": true,
+      "logo": "assets/logos/onekey.png"
+    },
+    {
+      "id": "coinmarketcap",
+      "name": "CoinMarketCap (CMC)",
+      "name_en": "CoinMarketCap",
+      "category": "market_analytics",
+      "subcategory": "market_general",
+      "url": "https://coinmarketcap.com",
+      "domains": [
+        "coinmarketcap.com"
+      ],
+      "description": "全球流量最大、收录币种与交易所最全面的加密货币行情汇总门户，提供全网市值、交易量及实时排名看板。",
+      "tags": [
+        "行业门户",
+        "市值排名",
+        "币种数据",
+        "交易所追踪"
+      ],
+      "is_featured": true,
+      "badge": "全球门户",
+      "logo": "assets/logos/coinmarketcap.png"
+    },
+    {
+      "id": "coingecko",
+      "name": "CoinGecko",
+      "name_en": "CoinGecko",
+      "category": "market_analytics",
+      "subcategory": "market_general",
+      "url": "https://www.coingecko.com",
+      "domains": [
+        "coingecko.com"
+      ],
+      "description": "全球知名独立客观的加密资产行情数据平台，不受大机构操纵，提供真实成交量评分、代币经济学与行业季度研报。",
+      "tags": [
+        "独立客观",
+        "市值行情",
+        "API开放",
+        "专业评级"
+      ],
+      "is_featured": true,
+      "badge": "独立客观",
+      "logo": "assets/logos/coingecko.png"
+    },
+    {
+      "id": "tradingview",
+      "name": "TradingView",
+      "name_en": "TradingView",
+      "category": "market_analytics",
+      "subcategory": "market_general",
+      "url": "https://www.tradingview.com",
+      "domains": [
+        "tradingview.com"
+      ],
+      "description": "全球最受交易员推崇的专业金融K线图表分析与技术指标平台，支持Pine Script脚本编写与跨市场全景看盘。",
+      "tags": [
+        "看盘利器",
+        "技术指标",
+        "PineScript",
+        "交易员必备"
+      ],
+      "is_featured": true,
+      "badge": "K线标杆",
+      "logo": "assets/logos/tradingview.png"
+    },
+    {
+      "id": "coinglass",
+      "name": "CoinGlass",
+      "name_en": "CoinGlass",
+      "category": "market_analytics",
+      "subcategory": "derivatives_data",
+      "url": "https://www.coinglass.com",
+      "domains": [
+        "coinglass.com"
+      ],
+      "description": "全网最专业的加密衍生品合约数据终端，实时提供全网持仓量(OI)、全网爆仓地图、资金费率热力图与灰度ETF持仓。",
+      "tags": [
+        "合约必备",
+        "爆仓统计",
+        "资金费率",
+        "持仓量OI"
+      ],
+      "is_featured": true,
+      "badge": "合约必备",
+      "logo": "assets/logos/coinglass.png"
+    },
+    {
+      "id": "dexscreener",
+      "name": "DexScreener",
+      "name_en": "DexScreener",
+      "category": "market_analytics",
+      "subcategory": "dex_screener",
+      "url": "https://dexscreener.com",
+      "domains": [
+        "dexscreener.com"
+      ],
+      "description": "去中心化交易所(DEX)新币极速K线图表与流动性扫描神器，实时监控Solana、Base、以太坊等链上热门Meme币异动与大单交易。",
+      "tags": [
+        "冲狗必备",
+        "秒级看盘",
+        "多链新币",
+        "流动性雷达"
+      ],
+      "is_featured": true,
+      "badge": "Meme看盘必备",
+      "logo": "assets/logos/dexscreener.png"
+    },
+    {
+      "id": "dextools",
+      "name": "DEXTools",
+      "name_en": "DEXTools",
+      "category": "market_analytics",
+      "subcategory": "dex_screener",
+      "url": "https://www.dextools.io",
+      "domains": [
+        "dextools.io"
+      ],
+      "description": "老牌去中心化交易对价格追踪工具，提供DEXTscore信用评分、持币地址持仓分布与代币合约可疑权限探测。",
+      "tags": [
+        "老牌DEX工具",
+        "代币评分",
+        "合约安全检测",
+        "池子追踪"
+      ],
+      "is_featured": false,
+      "logo": "assets/logos/dextools.png"
+    },
+    {
+      "id": "gmgn",
+      "name": "GMGN.ai",
+      "name_en": "GMGN.ai",
+      "category": "market_analytics",
+      "subcategory": "dex_screener",
+      "url": "https://gmgn.ai",
+      "domains": [
+        "gmgn.ai"
+      ],
+      "description": "针对Solana/Base链上高频交易员打造的极速看盘与Smart Money聪明钱追踪神器，支持代币防跑路提示与快捷跟单下单。",
+      "tags": [
+        "聪敏钱追踪",
+        "秒级交易",
+        "老鼠仓识别",
+        "Solana/Base"
+      ],
+      "is_featured": true,
+      "badge": "聪明钱跟单",
+      "logo": "assets/logos/gmgn.png"
+    },
+    {
+      "id": "rootdata",
+      "name": "RootData",
+      "name_en": "RootData",
+      "category": "market_analytics",
+      "subcategory": "onchain_intel",
+      "url": "https://www.rootdata.com",
+      "domains": [
+        "rootdata.com"
+      ],
+      "description": "可视化结构化加密投融资数据库，清晰梳理一级市场项目背景、融资轮次、投资机构阵容、生态标签与主网上线日程。",
+      "tags": [
+        "一级投融资",
+        "机构布局",
+        "项目库",
+        "研报利器"
+      ],
+      "is_featured": true,
+      "badge": "投融资宝库",
+      "logo": "assets/logos/rootdata.png"
+    },
+    {
+      "id": "sosovalue",
+      "name": "SoSoValue",
+      "name_en": "SoSoValue",
+      "category": "market_analytics",
+      "subcategory": "market_general",
+      "url": "https://sosovalue.xyz",
+      "domains": [
+        "sosovalue.xyz"
+      ],
+      "description": "为专业加密投资者打造的金融研究终端，权威提供美国比特币与以太坊现货ETF实时每日资金净流向、宏观行业大盘研判。",
+      "tags": [
+        "现货ETF数据",
+        "宏观投研",
+        "资金流向",
+        "专业终端"
+      ],
+      "is_featured": true,
+      "badge": "ETF动向",
+      "logo": "assets/logos/sosovalue.svg"
+    },
+    {
+      "id": "arkham",
+      "name": "Arkham Intelligence",
+      "name_en": "Arkham",
+      "category": "market_analytics",
+      "subcategory": "onchain_intel",
+      "url": "https://www.arkhamintelligence.com",
+      "domains": [
+        "arkhamintelligence.com"
+      ],
+      "description": "基于AI驱动的链上实体智能分析平台，将链上匿名地址与现实机构、做市商、巨鲸和黑客深度绑定，全景展示资金流向图谱。",
+      "tags": [
+        "链上情报",
+        "巨鲸穿透",
+        "AI实体标签",
+        "黑客追踪"
+      ],
+      "is_featured": true,
+      "badge": "链上情报",
+      "logo": "assets/logos/arkham.png"
+    },
+    {
+      "id": "bubblemaps",
+      "name": "Bubblemaps",
+      "name_en": "Bubblemaps",
+      "category": "market_analytics",
+      "subcategory": "onchain_intel",
+      "url": "https://bubblemaps.io",
+      "domains": [
+        "bubblemaps.io"
+      ],
+      "description": "革命性的链上持仓可视化泡泡图工具，一键检测代币前头部持仓钱包之间的关联转账，一眼识别开发者隐秘老鼠仓与筹码洗盘。",
+      "tags": [
+        "持仓泡泡图",
+        "老鼠仓穿透",
+        "筹码分布",
+        "防割必用"
+      ],
+      "is_featured": true,
+      "badge": "筹码可视化",
+      "logo": "assets/logos/bubblemaps.png"
+    },
+    {
+      "id": "debank",
+      "name": "DeBank",
+      "name_en": "DeBank",
+      "category": "market_analytics",
+      "subcategory": "onchain_intel",
+      "url": "https://debank.com",
+      "domains": [
+        "debank.com"
+      ],
+      "description": "支持数百条公链的个人全资产看板与Web3社交平台，清晰还原任一钱包在各大DeFi协议中的抵押、借贷、质押与流动性仓位。",
+      "tags": [
+        "资产看板",
+        "全链DeFi追踪",
+        "巨鲸地址订阅",
+        "Web3社交"
+      ],
+      "is_featured": true,
+      "logo": "assets/logos/debank.png"
+    },
+    {
+      "id": "aave",
+      "name": "Aave",
+      "name_en": "Aave",
+      "category": "defi",
+      "subcategory": "lending",
+      "url": "https://aave.com",
+      "domains": [
+        "aave.com"
+      ],
+      "description": "全球TVL排名稳居第一的去中心化借贷协议，支持多链超额抵押借贷、创新隔离模式、闪电贷(Flash Loans)与GHO稳定币。",
+      "tags": [
+        "借贷龙头",
+        "全链部署",
+        "闪电贷",
+        "极佳安全性"
+      ],
+      "is_featured": true,
+      "badge": "借贷龙头",
+      "logo": "assets/logos/aave.png"
+    },
+    {
+      "id": "lido",
+      "name": "Lido Finance",
+      "name_en": "Lido",
+      "category": "defi",
+      "subcategory": "staking_restaking",
+      "url": "https://lido.fi",
+      "domains": [
+        "lido.fi"
+      ],
+      "description": "以太坊生态最大的流动性质押(LST)协议，发行流通性极佳的stETH，让散户无门槛质押以太坊并无缝参与整个DeFi借贷生态。",
+      "tags": [
+        "流动性质押",
+        "stETH",
+        "以太坊PoS",
+        "DeFi底层质押"
+      ],
+      "is_featured": true,
+      "badge": "LST龙头",
+      "logo": "assets/logos/lido.png"
+    },
+    {
+      "id": "eigenlayer",
+      "name": "EigenLayer",
+      "name_en": "EigenLayer",
+      "category": "defi",
+      "subcategory": "staking_restaking",
+      "url": "https://www.eigenlayer.xyz",
+      "domains": [
+        "eigenlayer.xyz"
+      ],
+      "description": "以太坊再质押(Restaking)开创者，允许ETH质押者将共识安全性借给预言机、侧链、数据可用性层(AVS)等其他协议赚取额外收益。",
+      "tags": [
+        "再质押先锋",
+        "Restaking",
+        "AVS生态",
+        "以太坊安全性共享"
+      ],
+      "is_featured": true,
+      "badge": "再质押先驱",
+      "logo": "assets/logos/eigenlayer.png"
+    },
+    {
+      "id": "pendle",
+      "name": "Pendle Finance",
+      "name_en": "Pendle",
+      "category": "defi",
+      "subcategory": "yield_rwa",
+      "url": "https://www.pendle.finance",
+      "domains": [
+        "pendle.finance"
+      ],
+      "description": "革命性的未来收益代币化协议，将生息资产剥离为本金代币(PT)与收益代币(YT)，支持固定收益锁仓与利差衍生品投机。",
+      "tags": [
+        "固定收益",
+        "收益代币化",
+        "PT/YT",
+        "利率交易"
+      ],
+      "is_featured": true,
+      "badge": "收益交易标杆",
+      "logo": "assets/logos/pendle.png"
+    },
+    {
+      "id": "ethena",
+      "name": "Ethena",
+      "name_en": "Ethena",
+      "category": "defi",
+      "subcategory": "yield_rwa",
+      "url": "https://ethena.fi",
+      "domains": [
+        "ethena.fi"
+      ],
+      "description": "开创性的合成美元协议，发行USDe，通过质押ETH与在CEX开设1:1空头合约实现Delta中性对冲，捕获高额基差与质押复合收益。",
+      "tags": [
+        "合成美元USDe",
+        "Delta中性",
+        "高生息收益",
+        "基差套利"
+      ],
+      "is_featured": true,
+      "logo": "assets/logos/ethena.png"
+    },
+    {
+      "id": "sky-makerdao",
+      "name": "Sky (原 MakerDAO)",
+      "name_en": "Sky / MakerDAO",
+      "category": "defi",
+      "subcategory": "yield_rwa",
+      "url": "https://sky.money",
+      "domains": [
+        "sky.money",
+        "makerdao.com"
+      ],
+      "description": "DeFi去中心化超额抵押稳定币始祖，发行USDS/DAI，深度拥抱真实世界资产(RWA)如美国短期国债，提供极其稳固的系统信誉。",
+      "tags": [
+        "去中心化稳定币",
+        "USDS/DAI",
+        "RWA美债",
+        "DeFi始祖"
+      ],
+      "is_featured": false,
+      "logo": "assets/logos/sky-makerdao.png"
+    },
+    {
+      "id": "stargate",
+      "name": "Stargate Finance",
+      "name_en": "Stargate",
+      "category": "defi",
+      "subcategory": "crosschain",
+      "url": "https://stargate.finance",
+      "domains": [
+        "stargate.finance"
+      ],
+      "description": "基于LayerZero全链互操作协议构建的完全可组合资产流动性传输协议，实现跨链原生资产即时无缝兑换，无封装代币滑点。",
+      "tags": [
+        "跨链桥",
+        "LayerZero",
+        "原生资产跨链",
+        "即时到账"
+      ],
+      "is_featured": false,
+      "logo": "assets/logos/stargate.png"
+    },
+    {
+      "id": "across",
+      "name": "Across Protocol",
+      "name_en": "Across",
+      "category": "defi",
+      "subcategory": "crosschain",
+      "url": "https://across.to",
+      "domains": [
+        "across.to"
+      ],
+      "description": "基于意图(Intent-based)与UMA乐观预言机驱动的高速跨链桥，几秒内以极低手续费完成以太坊与各大L2之间的资产跨链调拨。",
+      "tags": [
+        "基于意图",
+        "极速跨链",
+        "低费用",
+        "L2互通神器"
+      ],
+      "is_featured": true,
+      "badge": "极速跨链",
+      "logo": "assets/logos/across.png"
+    },
+    {
+      "id": "bitcoin",
+      "name": "Bitcoin (BTC)",
+      "name_en": "Bitcoin",
+      "category": "public_chains",
+      "subcategory": "layer1",
+      "url": "https://bitcoin.org",
+      "domains": [
+        "bitcoin.org"
+      ],
+      "description": "由中本聪开创的点对点去中心化加密现金系统，去中心化货币之母，全球共识最强的数字黄金与抗通胀主权资产。",
+      "tags": [
+        "数字黄金",
+        "底层共识",
+        "去中心化基石",
+        "PoW机制"
+      ],
+      "is_featured": true,
+      "badge": "数字黄金",
+      "logo": "assets/logos/bitcoin.png"
+    },
+    {
+      "id": "ethereum",
+      "name": "Ethereum (ETH)",
+      "name_en": "Ethereum",
+      "category": "public_chains",
+      "subcategory": "layer1",
+      "url": "https://ethereum.org",
+      "domains": [
+        "ethereum.org"
+      ],
+      "description": "全球最大的智能合约平台与可编程区块链计算机，构建了去中心化金融(DeFi)、NFT与整个Web3应用繁荣的大脑母体。",
+      "tags": [
+        "智能合约之王",
+        "EVM基石",
+        "PoS权益证明",
+        "Web3母体"
+      ],
+      "is_featured": true,
+      "badge": "智能合约之王",
+      "logo": "assets/logos/ethereum.png"
+    },
+    {
+      "id": "solana",
+      "name": "Solana (SOL)",
+      "name_en": "Solana",
+      "category": "public_chains",
+      "subcategory": "layer1",
+      "url": "https://solana.com",
+      "domains": [
+        "solana.com"
+      ],
+      "description": "专为大规模消费级应用设计的高性能单片公链，依托历史证明(PoH)共识，具备上万TPS吞吐量、亚秒级确认与微分钱Gas费。",
+      "tags": [
+        "高性能L1",
+        "极低Gas",
+        "PoH共识",
+        "Meme/DeFi热土"
+      ],
+      "is_featured": true,
+      "badge": "高性能王者",
+      "logo": "assets/logos/solana.png"
+    },
+    {
+      "id": "bnb-chain",
+      "name": "BNB Chain",
+      "name_en": "BNB Chain",
+      "category": "public_chains",
+      "subcategory": "layer1",
+      "url": "https://www.bnbchain.org",
+      "domains": [
+        "bnbchain.org"
+      ],
+      "description": "由币安社区驱动支持的高并发EVM兼容公链网络，拥有极其庞大的全球用户基础、高流动性DApp生态与极低网络交易费。",
+      "tags": [
+        "EVM兼容",
+        "币安生态",
+        "低手续费",
+        "庞大用户体量"
+      ],
+      "is_featured": false,
+      "logo": "assets/logos/bnb-chain.png"
+    },
+    {
+      "id": "arbitrum",
+      "name": "Arbitrum One",
+      "name_en": "Arbitrum",
+      "category": "public_chains",
+      "subcategory": "layer2",
+      "url": "https://arbitrum.io",
+      "domains": [
+        "arbitrum.io"
+      ],
+      "description": "以太坊生态TVL与应用生态最丰富的Optimistic Rollup Layer 2扩容方案，完美兼容EVM字节码，提供与主网一致的安全保障与极低Gas。",
+      "tags": [
+        "L2龙头",
+        "Optimistic Rollup",
+        "EVM等价",
+        "DeFi繁荣"
+      ],
+      "is_featured": true,
+      "badge": "L2龙头",
+      "logo": "assets/logos/arbitrum.png"
+    },
+    {
+      "id": "base",
+      "name": "Base",
+      "name_en": "Base",
+      "category": "public_chains",
+      "subcategory": "layer2",
+      "url": "https://base.org",
+      "domains": [
+        "base.org"
+      ],
+      "description": "由美国合规上市巨头Coinbase孵化、构建在OP Stack超级链上的安全低费以太坊Layer 2，拥有打通Coinbase亿级用户的无缝入口。",
+      "tags": [
+        "Coinbase孵化",
+        "OP Stack",
+        "社群热度最高",
+        "低费快速"
+      ],
+      "is_featured": true,
+      "badge": "增长之星",
+      "logo": "assets/logos/base.png"
+    },
+    {
+      "id": "optimism",
+      "name": "Optimism (OP Mainnet)",
+      "name_en": "Optimism",
+      "category": "public_chains",
+      "subcategory": "layer2",
+      "url": "https://www.optimism.io",
+      "domains": [
+        "optimism.io"
+      ],
+      "description": "以太坊头部二层网络先驱，推出开放标准OP Stack模块化框架，引领Base、World Chain、Zora等构筑共享安全超级链(Superchain)。",
+      "tags": [
+        "OP Stack",
+        "超级链联盟",
+        "公共物品资助",
+        "以太坊扩容"
+      ],
+      "is_featured": false,
+      "logo": "assets/logos/optimism.png"
+    },
+    {
+      "id": "polygon",
+      "name": "Polygon",
+      "name_en": "Polygon",
+      "category": "public_chains",
+      "subcategory": "layer2",
+      "url": "https://polygon.technology",
+      "domains": [
+        "polygon.technology"
+      ],
+      "description": "领先的多链聚合与零知识证明扩展网络，包含经典Polygon PoS链以及连接全网流动性的AggLayer聚合架构。",
+      "tags": [
+        "AggLayer",
+        "ZK技术",
+        "企业级采用",
+        "Web3普及先锋"
+      ],
+      "is_featured": false,
+      "logo": "assets/logos/polygon.png"
+    },
+    {
+      "id": "sui",
+      "name": "Sui Network",
+      "name_en": "Sui",
+      "category": "public_chains",
+      "subcategory": "layer1",
+      "url": "https://sui.io",
+      "domains": [
+        "sui.io"
+      ],
+      "description": "由前Meta加密团队打造的面向对象Move语言高性能Layer 1，支持非同质化资产并行处理与亚秒级终局性结算。",
+      "tags": [
+        "Move语言",
+        "并行执行",
+        "面向对象",
+        "高TPS"
+      ],
+      "is_featured": true,
+      "logo": "assets/logos/sui.png"
+    },
+    {
+      "id": "aptos",
+      "name": "Aptos",
+      "name_en": "Aptos",
+      "category": "public_chains",
+      "subcategory": "layer1",
+      "url": "https://aptosfoundation.org",
+      "domains": [
+        "aptosfoundation.org"
+      ],
+      "description": "采用Move语言构建的安全可升级Layer 1公链，利用Block-STM并行执行引擎大幅提升交易吞吐量与系统鲁棒性。",
+      "tags": [
+        "Move生态",
+        "Block-STM",
+        "高吞吐量",
+        "机构青睐"
+      ],
+      "is_featured": false,
+      "logo": "assets/logos/aptos.png"
+    },
+    {
+      "id": "ton",
+      "name": "The Open Network (TON)",
+      "name_en": "TON",
+      "category": "public_chains",
+      "subcategory": "layer1",
+      "url": "https://ton.org",
+      "domains": [
+        "ton.org"
+      ],
+      "description": "深度绑定Telegram近10亿月活用户的去中心化Layer 1，具备无限分片可扩展架构，无缝驱动Telegram Mini App与Web3大众破圈。",
+      "tags": [
+        "Telegram生态",
+        "近10亿用户流量",
+        "Mini App",
+        "大规模普及"
+      ],
+      "is_featured": true,
+      "badge": "流量破圈",
+      "logo": "assets/logos/ton.png"
+    },
+    {
+      "id": "etherscan",
+      "name": "Etherscan",
+      "name_en": "Etherscan",
+      "category": "explorers",
+      "subcategory": "evm_explorers",
+      "url": "https://etherscan.io",
+      "domains": [
+        "etherscan.io"
+      ],
+      "description": "以太坊行业事实上的权威区块链浏览器，全方位查询交易哈希、智能合约源代码验证、Token持仓与Gas实时消耗。",
+      "tags": [
+        "以太坊浏览器",
+        "合约验证",
+        "交易查账",
+        "行业金标"
+      ],
+      "is_featured": true,
+      "badge": "浏览器标杆",
+      "logo": "assets/logos/etherscan.png"
+    },
+    {
+      "id": "solscan",
+      "name": "Solscan",
+      "name_en": "Solscan",
+      "category": "explorers",
+      "subcategory": "non_evm_explorers",
+      "url": "https://solscan.io",
+      "domains": [
+        "solscan.io"
+      ],
+      "description": "Solana生态主流区块链浏览器，清晰展示代币账户、交易签名、智能程序指令调用与验证者节点状态。",
+      "tags": [
+        "Solana浏览器",
+        "账户查询",
+        "SPL代币",
+        "指令解析"
+      ],
+      "is_featured": true,
+      "badge": "Solana必备",
+      "logo": "assets/logos/solscan.png"
+    },
+    {
+      "id": "mempool-space",
+      "name": "mempool.space",
+      "name_en": "mempool.space",
+      "category": "explorers",
+      "subcategory": "non_evm_explorers",
+      "url": "https://mempool.space",
+      "domains": [
+        "mempool.space"
+      ],
+      "description": "全网最受欢迎的比特币内存池全景可视化开源浏览器，实时查看未确认交易队列、网络推荐费率(Sat/vB)及出块矿池信息。",
+      "tags": [
+        "比特币内存池",
+        "实时手续费",
+        "出块可视化",
+        "极客开源"
+      ],
+      "is_featured": true,
+      "badge": "BTC内存池",
+      "logo": "assets/logos/mempool-space.png"
+    },
+    {
+      "id": "bscscan",
+      "name": "BscScan",
+      "name_en": "BscScan",
+      "category": "explorers",
+      "subcategory": "evm_explorers",
+      "url": "https://bscscan.com",
+      "domains": [
+        "bscscan.com"
+      ],
+      "description": "由Etherscan团队打造的BNB Smart Chain官方指定区块链浏览器，支持全量BEP-20代币与智能合约查询。",
+      "tags": [
+        "BNB Chain",
+        "BEP-20查询",
+        "Etherscan同源",
+        "合约验证"
+      ],
+      "is_featured": false,
+      "logo": "assets/logos/bscscan.png"
+    },
+    {
+      "id": "basescan",
+      "name": "Basescan",
+      "name_en": "Basescan",
+      "category": "explorers",
+      "subcategory": "evm_explorers",
+      "url": "https://basescan.org",
+      "domains": [
+        "basescan.org"
+      ],
+      "description": "Base网络核心区块链浏览器，由Etherscan底层技术支持，实时查询Base链上转账、部署合约及Gas费趋势。",
+      "tags": [
+        "Base浏览器",
+        "L2交易查询",
+        "Etherscan技术",
+        "热门链标配"
+      ],
+      "is_featured": false,
+      "logo": "assets/logos/basescan.png"
+    },
+    {
+      "id": "revoke-cash",
+      "name": "Revoke.cash",
+      "name_en": "Revoke.cash",
+      "category": "security",
+      "subcategory": "wallet_security",
+      "url": "https://revoke.cash",
+      "domains": [
+        "revoke.cash"
+      ],
+      "description": "链上资产防御第一神器，定期检查并一键取消钱包在多链DApp中授予的无限代币花费额度，阻断黑客合约盗币风险。",
+      "tags": [
+        "取消授权",
+        "防盗神器",
+        "多链支持",
+        "安全必备"
+      ],
+      "is_featured": true,
+      "badge": "防盗必备",
+      "logo": "assets/logos/revoke-cash.png"
+    },
+    {
+      "id": "goplus-security",
+      "name": "GoPlus Security",
+      "name_en": "GoPlus",
+      "category": "security",
+      "subcategory": "wallet_security",
+      "url": "https://gopluslabs.io",
+      "domains": [
+        "gopluslabs.io"
+      ],
+      "description": "去中心化Web3开放安全网络，为全网DEX与钱包提供高精度智能合约安全检测、Pixiu蜜罐貔貅盘代码拦截API。",
+      "tags": [
+        "蜜罐检测",
+        "代币安全API",
+        "代码安全审计",
+        "自动化防御"
+      ],
+      "is_featured": true,
+      "badge": "蜜罐识别",
+      "logo": "assets/logos/goplus-security.png"
+    },
+    {
+      "id": "scam-sniffer",
+      "name": "Scam Sniffer",
+      "name_en": "Scam Sniffer",
+      "category": "security",
+      "subcategory": "wallet_security",
+      "url": "https://scamsniffer.io",
+      "domains": [
+        "scamsniffer.io"
+      ],
+      "description": "专业的Web3反诈骗与钓鱼网站实时拦截插件，持续曝光恶意的钱包排空器(Wallet Drainer)欺诈签名并推送预警情报。",
+      "tags": [
+        "防钓鱼插件",
+        "签名拦截",
+        "Drainer识别",
+        "安全情报"
+      ],
+      "is_featured": true,
+      "badge": "反诈雷达",
+      "logo": "assets/logos/scam-sniffer.png"
+    },
+    {
+      "id": "certik",
+      "name": "CertiK",
+      "name_en": "CertiK",
+      "category": "security",
+      "subcategory": "audit_research",
+      "url": "https://www.certik.com",
+      "domains": [
+        "certik.com"
+      ],
+      "description": "全球先锋的Web3智能合约代码形式化验证与安全审计机构，提供全网项目实时安全排行榜(Skynet)与漏洞排查服务。",
+      "tags": [
+        "权威审计",
+        "形式化验证",
+        "Skynet安全榜",
+        "机构认证"
+      ],
+      "is_featured": false,
+      "logo": "assets/logos/certik.png"
+    },
+    {
+      "id": "slowmist",
+      "name": "SlowMist (慢雾科技)",
+      "name_en": "SlowMist",
+      "category": "security",
+      "subcategory": "audit_research",
+      "url": "https://www.slowmist.com",
+      "domains": [
+        "slowmist.com"
+      ],
+      "description": "专注于区块链生态安全防御与反洗钱(AML)追踪的知名安全团队，持续发布被盗资产溯源、暗网黑客情报与行业安全研报。",
+      "tags": [
+        "安全审计",
+        "被盗溯源AML",
+        "暗网威胁情报",
+        "知名白帽团队"
+      ],
+      "is_featured": true,
+      "logo": "assets/logos/slowmist.png"
+    },
+    {
+      "id": "defillama",
+      "name": "DefiLlama",
+      "name_en": "DefiLlama",
+      "category": "research_alpha",
+      "subcategory": "macro_tvl",
+      "url": "https://defillama.com",
+      "domains": [
+        "defillama.com"
+      ],
+      "description": "全球最大的完全开源且无广告的DeFi数据库，精准追踪上百条公链的锁仓总价值(TVL)、协议手续费、稳定币市值与收益率农场。",
+      "tags": [
+        "TVL权威",
+        "全开源免费",
+        "协议收益",
+        "公链资金流动"
+      ],
+      "is_featured": true,
+      "badge": "DeFi数据龙头",
+      "logo": "assets/logos/defillama.png"
+    },
+    {
+      "id": "dune",
+      "name": "Dune Analytics",
+      "name_en": "Dune",
+      "category": "research_alpha",
+      "subcategory": "macro_tvl",
+      "url": "https://dune.com",
+      "domains": [
+        "dune.com"
+      ],
+      "description": "全球区块链数据SQL分析与可视化社区，由成千上万名专业分析师共建海量免费看板，支持从链上原始字节穿透到业务报表。",
+      "tags": [
+        "SQL分析",
+        "社区看板",
+        "链上数据可视化",
+        "投研神器"
+      ],
+      "is_featured": true,
+      "badge": "SQL数据之神",
+      "logo": "assets/logos/dune.png"
+    },
+    {
+      "id": "token-unlocks",
+      "name": "Token Unlocks",
+      "name_en": "Token Unlocks",
+      "category": "research_alpha",
+      "subcategory": "unlock_airdrop",
+      "url": "https://token.unlocks.app",
+      "domains": [
+        "unlocks.app"
+      ],
+      "description": "最专业的代币解锁日程监控日历，清晰预警各大主流与山寨币的巨额归属解锁日期、流通盘比例与潜在抛售压力。",
+      "tags": [
+        "代币解锁",
+        "抛压倒计时",
+        "解锁日历",
+        "现货避坑必查"
+      ],
+      "is_featured": true,
+      "badge": "解锁避坑",
+      "logo": "assets/logos/token-unlocks.png"
+    },
+    {
+      "id": "farside-investors",
+      "name": "Farside Investors",
+      "name_en": "Farside Investors",
+      "category": "research_alpha",
+      "subcategory": "macro_tvl",
+      "url": "https://farside.co.uk",
+      "domains": [
+        "farside.co.uk"
+      ],
+      "description": "业内最权威快速的美国比特币与以太坊现货ETF每日单日资金净流入/流出数据跟踪源，机构宏观交易员首发盯盘网站。",
+      "tags": [
+        "BTC现货ETF",
+        "每日净流入",
+        "华尔街动向",
+        "机构资金流"
+      ],
+      "is_featured": true,
+      "badge": "ETF实时流向",
+      "logo": "assets/logos/farside-investors.png"
+    },
+    {
+      "id": "l2beat",
+      "name": "L2BEAT",
+      "name_en": "L2BEAT",
+      "category": "research_alpha",
+      "subcategory": "macro_tvl",
+      "url": "https://l2beat.com",
+      "domains": [
+        "l2beat.com"
+      ],
+      "description": "专注于以太坊Layer 2扩容生态的研究与分析平台，不仅统计真实TVL，还依据逃生舱、欺诈证明等指标严格审查L2去中心化安全等级。",
+      "tags": [
+        "Layer 2权威",
+        "安全阶段评估",
+        "真实TVL",
+        "以太坊扩容研究"
+      ],
+      "is_featured": false,
+      "logo": "assets/logos/l2beat.png"
+    },
+    {
+      "id": "cryptorank",
+      "name": "CryptoRank",
+      "name_en": "CryptoRank",
+      "category": "research_alpha",
+      "subcategory": "unlock_airdrop",
+      "url": "https://cryptorank.io",
+      "domains": [
+        "cryptorank.io"
+      ],
+      "description": "全方位的加密资产投研与众筹IDO/IEO数据追踪终端，详细统计历史众筹回报率ROI、投资机构持仓组合与潜在空投任务清单。",
+      "tags": [
+        "众筹回报率",
+        "IDO/IEO历史",
+        "空投任务",
+        "投融资梳理"
+      ],
+      "is_featured": false,
+      "logo": "assets/logos/cryptorank.png"
+    },
+    {
+      "id": "foresight-news",
+      "name": "Foresight News",
+      "name_en": "Foresight News",
+      "category": "news_media",
+      "subcategory": "chinese_media",
+      "url": "https://foresightnews.pro",
+      "domains": [
+        "foresightnews.pro"
+      ],
+      "description": "中文Web3领域极具影响力的精品原创内容与信息服务平台，提供深度赛道研报、行业大事记日历与及时的快讯推送。",
+      "tags": [
+        "深度研报",
+        "原创内容",
+        "Web3活动日历",
+        "华语精品媒体"
+      ],
+      "is_featured": true,
+      "badge": "深度研报",
+      "logo": "assets/logos/foresight-news.png"
+    },
+    {
+      "id": "panews",
+      "name": "PANews",
+      "name_en": "PANews",
+      "category": "news_media",
+      "subcategory": "chinese_media",
+      "url": "https://www.panewslab.com",
+      "domains": [
+        "panewslab.com"
+      ],
+      "description": "区块链与金融科技领域的智库型媒体，为行业从业者与投资机构提供客观中立的一手数据、独家调查与高端峰会报道。",
+      "tags": [
+        "智库媒体",
+        "独家调查",
+        "客观中立",
+        "资深科技媒体"
+      ],
+      "is_featured": false,
+      "logo": "assets/logos/panews.png"
+    },
+    {
+      "id": "techflow",
+      "name": "深潮 TechFlow",
+      "name_en": "TechFlow",
+      "category": "news_media",
+      "subcategory": "chinese_media",
+      "url": "https://www.techflowpost.com",
+      "domains": [
+        "techflowpost.com"
+      ],
+      "description": "专注于加密行业深度思考与趋势前瞻的先锋内容平台，输出高质量赛道梳理、海外前沿投研翻译与创始人访谈。",
+      "tags": [
+        "前沿观察",
+        "海外译介",
+        "赛道前瞻",
+        "高质量思考"
+      ],
+      "is_featured": true,
+      "badge": "前沿视角",
+      "logo": "assets/logos/techflow.png"
+    },
+    {
+      "id": "blockbeats",
+      "name": "律动 BlockBeats",
+      "name_en": "BlockBeats",
+      "category": "news_media",
+      "subcategory": "chinese_media",
+      "url": "https://www.theblockbeats.info",
+      "domains": [
+        "theblockbeats.info"
+      ],
+      "description": "深耕加密行业的头部垂直媒体，提供7x24小时全天候闪电快讯、深度产业调查以及新趋势Alpha解读。",
+      "tags": [
+        "7x24快讯",
+        "深度报道",
+        "行业热点",
+        "社群传播广"
+      ],
+      "is_featured": true,
+      "logo": "assets/logos/blockbeats.png"
+    },
+    {
+      "id": "odaily",
+      "name": "星球日报 Odaily",
+      "name_en": "Odaily",
+      "category": "news_media",
+      "subcategory": "chinese_media",
+      "url": "https://www.odaily.news",
+      "domains": [
+        "odaily.news"
+      ],
+      "description": "权威区块链科技内容服务平台，深度跟进加密生态前沿项目进展、行业监管政策剖析与实操交互教程。",
+      "tags": [
+        "项目跟踪",
+        "监管政策",
+        "实操教程",
+        "资深媒体"
+      ],
+      "is_featured": false,
+      "logo": "assets/logos/odaily.png"
+    },
+    {
+      "id": "coindesk",
+      "name": "CoinDesk",
+      "name_en": "CoinDesk",
+      "category": "news_media",
+      "subcategory": "global_media",
+      "url": "https://www.coindesk.com",
+      "domains": [
+        "coindesk.com"
+      ],
+      "description": "全球资历最老、最具权威性的数字货币英文新闻媒体，举办著名的Consensus共识大会，常年被彭博社、路透社引为行业信源。",
+      "tags": [
+        "国际金标",
+        "Consensus大会",
+        "权威信源",
+        "全球影响力"
+      ],
+      "is_featured": true,
+      "badge": "国际权威",
+      "logo": "assets/logos/coindesk.png"
+    },
+    {
+      "id": "cointelegraph",
+      "name": "Cointelegraph",
+      "name_en": "Cointelegraph",
+      "category": "news_media",
+      "subcategory": "global_media",
+      "url": "https://cointelegraph.com",
+      "domains": [
+        "cointelegraph.com"
+      ],
+      "description": "全球覆盖面极广的加密科技新闻媒体，以极具辨识度的漫画插图风格、全语种国际版与即时市场快讯闻名全球。",
+      "tags": [
+        "漫画插画",
+        "全语种覆盖",
+        "即时资讯",
+        "全球传播广"
+      ],
+      "is_featured": false,
+      "logo": "assets/logos/cointelegraph.png"
+    },
+    {
+      "id": "bankless",
+      "name": "Bankless",
+      "name_en": "Bankless",
+      "category": "news_media",
+      "subcategory": "global_media",
+      "url": "https://www.bankless.com",
+      "domains": [
+        "bankless.com"
+      ],
+      "description": "全球加密原生社群最重要的知识媒体与播客指南，普及开放金融哲学、以太坊生态战略升级与无银行化个人主权思想。",
+      "tags": [
+        "DeFi指南",
+        "原生播客",
+        "以太坊前沿",
+        "思想阵地"
+      ],
+      "is_featured": false,
+      "logo": "assets/logos/bankless.png"
+    },
+    {
+      "id": "alchemy",
+      "name": "Alchemy",
+      "name_en": "Alchemy",
+      "category": "developer_infra",
+      "subcategory": "node_rpc",
+      "url": "https://www.alchemy.com",
+      "domains": [
+        "alchemy.com"
+      ],
+      "description": "Web3领域的“AWS”，为开发者提供极致稳定、高吞吐的多链RPC节点服务、增强型API、数据索引与嵌入式账户抽象工具箱。",
+      "tags": [
+        "Web3基础设施",
+        "超高速RPC",
+        "增强API",
+        "账户抽象AA"
+      ],
+      "is_featured": true,
+      "badge": "开发必备",
+      "logo": "assets/logos/alchemy.png"
+    },
+    {
+      "id": "infura",
+      "name": "Infura",
+      "name_en": "Infura",
+      "category": "developer_infra",
+      "subcategory": "node_rpc",
+      "url": "https://infura.io",
+      "domains": [
+        "infura.io"
+      ],
+      "description": "ConsenSys旗下老牌资深以太坊及IPFS分布式节点托管网络，承载了整个以太坊生态巨量DApp与MetaMask钱包的日常请求。",
+      "tags": [
+        "老牌节点",
+        "ConsenSys",
+        "以太坊/IPFS",
+        "高可用架构"
+      ],
+      "is_featured": false,
+      "logo": "assets/logos/infura.png"
+    },
+    {
+      "id": "chainlink",
+      "name": "Chainlink",
+      "name_en": "Chainlink",
+      "category": "developer_infra",
+      "subcategory": "smart_contracts",
+      "url": "https://chain.link",
+      "domains": [
+        "chain.link"
+      ],
+      "description": "去中心化预言机(Oracle)网络行业黄金标准，为智能合约安全输送现实世界价格喂价(Price Feeds)、可验证随机数(VRF)与跨链互操作CCIP。",
+      "tags": [
+        "预言机霸主",
+        "价格喂价",
+        "CCIP跨链",
+        "可验证随机数VRF"
+      ],
+      "is_featured": true,
+      "badge": "预言机标准",
+      "logo": "assets/logos/chainlink.png"
+    },
+    {
+      "id": "the-graph",
+      "name": "The Graph",
+      "name_en": "The Graph",
+      "category": "developer_infra",
+      "subcategory": "node_rpc",
+      "url": "https://thegraph.com",
+      "domains": [
+        "thegraph.com"
+      ],
+      "description": "区块链去中心化索引与查询协议，允许开发者编写自定义Subgraphs，使用标准GraphQL快速高效地查询链上复合复杂数据。",
+      "tags": [
+        "去中心化索引",
+        "Subgraph",
+        "GraphQL",
+        "DApp后端标准"
+      ],
+      "is_featured": false,
+      "logo": "assets/logos/the-graph.png"
+    },
+    {
+      "id": "foundry",
+      "name": "Foundry",
+      "name_en": "Foundry",
+      "category": "developer_infra",
+      "subcategory": "smart_contracts",
+      "url": "https://getfoundry.sh",
+      "domains": [
+        "getfoundry.sh"
+      ],
+      "description": "由Paradigm研发的极速、模块化以太坊应用开发框架，采用Rust编写，直接使用Solidity编写单元测试并支持模糊测试(Fuzzing)。",
+      "tags": [
+        "智能合约框架",
+        "Rust编写极速",
+        "Solidity写测试",
+        "开发者标配"
+      ],
+      "is_featured": true,
+      "badge": "现代合约框架",
+      "logo": "assets/logos/foundry.png"
+    },
+    {
+      "id": "openzeppelin",
+      "name": "OpenZeppelin",
+      "name_en": "OpenZeppelin",
+      "category": "developer_infra",
+      "subcategory": "smart_contracts",
+      "url": "https://www.openzeppelin.com",
+      "domains": [
+        "openzeppelin.com"
+      ],
+      "description": "智能合约工程标准的制定者，其开源的ERC-20、ERC-721、可升级代理合约代码库经过严苛审计，被全行业智能合约奉为标杆基石。",
+      "tags": [
+        "合约标准",
+        "ERC规范",
+        "开源安全库",
+        "全行业基石"
+      ],
+      "is_featured": true,
+      "logo": "assets/logos/openzeppelin.png"
+    }
+  ]
+}

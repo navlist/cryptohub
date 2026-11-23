@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="100%" height="100%">
+  <defs>
+    <linearGradient id="favBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F1422" />
+      <stop offset="100%" stop-color="#05070B" />
+    </linearGradient>
+    <linearGradient id="favGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <linearGradient id="favCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="32" fill="url(#favBg)" stroke="#F59E0B" stroke-width="2" stroke-opacity="0.4" />
+  <!-- Center Cube & Core -->
+  <g transform="translate(64, 58)">
+    <polygon points="0,-32 36,-12 0,8 -36,-12" fill="url(#favGold)" />
+    <polygon points="-36,-12 0,8 0,44 -36,24" fill="#B45309" />
+    <polygon points="0,8 36,-12 36,24 0,44" fill="#92400E" />
+    <polygon points="0,-14 14,-6 0,2 -14,-6" fill="url(#favCyan)" />
+  </g>
+  <!-- Accent Lightning -->
+  <path d="M66,92 L58,108 L68,108 L62,122 L74,102 L64,102 Z" fill="url(#favGold)" />
+</svg>
